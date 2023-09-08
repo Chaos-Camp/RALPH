@@ -2,10 +2,7 @@ module ralph
 
 go 1.20
 
-require (
-	cloud.google.com/go/storage v1.33.0
-	github.com/mattn/go-sqlite3 v1.14.17
-)
+require cloud.google.com/go/storage v1.33.0
 
 require (
 	cloud.google.com/go v0.110.4 // indirect
