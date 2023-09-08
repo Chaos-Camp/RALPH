@@ -57,4 +57,4 @@ jobs:
             --title "Release ${{ github.ref }}" \
             --notes "Release notes for ${{ github.ref }}"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.CICD_TOKEN }}
