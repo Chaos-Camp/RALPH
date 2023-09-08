@@ -56,10 +56,10 @@ graph TD;
 
 1. **Craft the Executable**:
 
-   Compile the code to produce an executable named `loadtester` (or `loadtester.exe` for Windows users):
+   Compile the code to produce an executable named `ralph` (or `ralph.exe` for Windows users):
 
    ```bash
-   go build -o loadtester main.go
+   go build -o ralph main.go
    ```
 
 ### Running:
@@ -67,10 +67,10 @@ graph TD;
 Execute the built tool:
 
 ```bash
-./loadtester -url=https://www.test-site.com -type=simple -iterations=3
+./ralph -url=https://www.test-site.com -type=simple -iterations=3
 ```
 
-(Note: Windows users should refer to the executable as `loadtester.exe`)
+(Note: Windows users should refer to the executable as `ralph.exe`)
 
 ## Usage
 
