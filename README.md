@@ -101,34 +101,44 @@ export GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_json>
 
 The following are use-case scenarios showcasing how to utilize RALPH for various testing methodologies:
 
+
+```markdown
+### Examples:
+
+The following are use-case scenarios showcasing how to utilize RALPH for various testing methodologies:
+
 1. **Simple Test**:
    ```bash
-   go run main.go -url=https://www.test-site.com -type=simple -iterations=3
+   ./ralph -url=https://www.test-site.com -type=simple -iterations=3
    ```
 
 2. **Stress Test**:
    ```bash
-   go run main.go -url=https://www.stress-site.com -type=stress -concurrentRequests=10
+   ./ralph -url=https://www.stress-site.com -type=stress -concurrentRequests=10
    ```
 
 3. **Spike Test**:
    ```bash
-   go run main.go -url=https://www.spike-site.com -type=spike -spikes=5 -spikeInterval=2
+   ./ralph -url=https://www.spike-site.com -type=spike -spikes=5 -spikeInterval=2
    ```
 
 4. **Endurance Test**:
    ```bash
-   go run main.go -url=https://www.endurance-site.com -type=endurance -duration=600
+   ./ralph -url=https://www.endurance-site.com -type=endurance -duration=600
    ```
 
 5. **Ramp Up Test**:
    ```bash
-   go run main.go -url=https://www.rampup-site.com -type=ramp_up -maxUsers=15 -rampUpPeriod=15
+   ./ralph -url=https://www.rampup-site.com -type=ramp_up -maxUsers=15 -rampUpPeriod=15
    ```
 
 6. **Storing Results**:
    ```bash
-   go run main.go -url=https://www.example-site.com -type=spike -bucket=my-special-bucket
+   ./ralph -url=https://www.example-site.com -type=spike -bucket=my-special-bucket
+   ```
+```
+
+(Note: Windows users should use `ralph.exe` instead of `./ralph`.)
    ```
 
 Post the test's completion, results will be stowed away in a CSV file named following the URL's sanitized format, ending with `_results.csv`. This file will subsequently be uploaded to the Google Cloud Storage bucket designated earlier.
