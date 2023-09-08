@@ -1,3 +1,4 @@
+[![Go](https://github.com/Chaos-Camp/RAPLH/actions/workflows/go.yml/badge.svg)](https://github.com/Chaos-Camp/RAPLH/actions/workflows/go.yml)
 # R.A.L.P.H. - Rapid Automated Load Performance Harness
 
 ## Description
@@ -142,9 +143,6 @@ The following are use-case scenarios showcasing how to utilize RALPH for various
    ```
 
 Post the test's completion, results will be stowed away in a CSV file named following the URL's sanitized format, ending with `_results.csv`. This file will subsequently be uploaded to the Google Cloud Storage bucket designated earlier.
-
-## Releases
-For precompiled binaries and release notes, please check out the Releases section.
 
 ## Contributing
 
