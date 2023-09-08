@@ -26,7 +26,7 @@ jobs:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
         run: |
-          go build -o loadtester-${{ matrix.goos }}-${{ matrix.goarch }} main.go
+          go build -o ralph-${{ matrix.goos }}-${{ matrix.goarch }} main.go
           zip ralph-${{ matrix.goos }}-${{ matrix.goarch }}.zip ralph-${{ matrix.goos }}-${{ matrix.goarch }}
 
       - name: Upload artifacts
