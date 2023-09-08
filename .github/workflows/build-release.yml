@@ -47,11 +47,8 @@ jobs:
         with:
           path: artifacts
 
-      - name: Set up GitHub CLI
-        uses: actions/setup-gh@v1
-
       - name: Create Release and Upload Artifacts
-        uses: gh-release-action/gh-release@v1
+        uses: gh-actions/gh-release@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag_name: ${{ github.ref }}
