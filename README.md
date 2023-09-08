@@ -1,7 +1,3 @@
-Here's an updated README for your project, R.A.L.P.H.:
-
----
-
 # R.A.L.P.H. - Rapid Automated Load Performance Harness
 
 ## Description
@@ -145,6 +141,3 @@ For those interested in contributing, please adhere strictly to Go's coding conv
 
 RALPH is proudly open-sourced, welcoming everyone to access and use it. If you choose to incorporate or refer to this code elsewhere, we humbly ask for appropriate attribution.
 
----
-
-This revised README provides an enhanced clarity and structure to guide users effectively. Modify placeholders as needed to better fit your project's specific details.
