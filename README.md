@@ -1,4 +1,4 @@
-[![Go](https://github.com/Chaos-Camp/RAPLH/actions/workflows/go.yml/badge.svg)](https://github.com/Chaos-Camp/RAPLH/actions/workflows/go.yml)
+[![Go](https://github.com/Chaos-Camp/RALPH/actions/workflows/go.yml/badge.svg)](https://github.com/Chaos-Camp/RALPH/actions/workflows/go.yml)
 # R.A.L.P.H. - Rapid Automated Load Performance Harness
 
 ## Description
@@ -40,8 +40,8 @@ graph TD;
 1. **Get the Source**:
 
    ```bash
-   git clone https://github.com/Chaos-Camp/RAPLH.git
-   cd RAPLH
+   git clone https://github.com/Chaos-Camp/RALPH.git
+   cd RALPH
    ```
 
 2. **Manage Dependencies**:
